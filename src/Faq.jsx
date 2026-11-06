@@ -45,7 +45,7 @@ function Faq() {
     ];
 
     function onSelectFaq(id) {
-        console.log(id);
+        alert(id);
     }
 
     return (
