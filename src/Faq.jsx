@@ -28,6 +28,20 @@ function Faq() {
             category: "React",
             isHot: false,
         },
+        {
+            id: 5,
+            question: "useMemo và useCallback khác nhau như thế nào?",
+            answer: "useMemo ghi nhớ giá trị kết quả của một phép tính, còn useCallback ghi nhớ chính function. Cả hai đều giúp tránh tính toán lại hoặc tạo lại tham chiếu không cần thiết, thường dùng để tối ưu hiệu năng.",
+            category: "React",
+            isHot: false,
+        },
+        {
+            id: 6,
+            question: "React Router dùng để làm gì?",
+            answer: "React Router là thư viện định tuyến cho React, giúp chuyển đổi giữa các trang/component mà không cần tải lại toàn bộ ứng dụng, hỗ trợ route động, nested route và lazy loading.",
+            category: "React",
+            isHot: false,
+        },
     ];
 
     function onSelectFaq(id) {
